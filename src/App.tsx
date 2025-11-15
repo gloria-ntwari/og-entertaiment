@@ -60,7 +60,7 @@ const App: React.FC = () => {
             </motion.p>
 
             <motion.div
-              className="space-y-4 max-w-xl text-m leading-relaxed tracking-wide text-gray-800 pt-14"
+              className="space-y-4 max-w-xl text-m leading-relaxed tracking-wide text-gray-800 pt-4"
               variants={itemVariants}
             >
               <p>
@@ -81,7 +81,7 @@ const App: React.FC = () => {
             </motion.div>
 
             <motion.div
-              className="flex flex-col gap-4 w-full pt-8"
+              className="flex flex-col gap-4 w-full pt-4"
               variants={containerVariants}
             >
               {SECTIONS_DATA.map((section) => (
@@ -103,7 +103,7 @@ const App: React.FC = () => {
               ))}
             </motion.div>
 
-            <motion.div className="pt-8" variants={itemVariants}>
+            <motion.div className="pt-4" variants={itemVariants}>
               <div className="flex items-center space-x-6">
                 {SOCIAL_LINKS.map(({ name, url, Icon }) => (
                   <a
