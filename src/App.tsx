@@ -7,7 +7,7 @@ import { Modal } from "./components/Modal";
 const Logo = () => (
   <div className="w-16 h-16 rounded-full flex items-center justify-center shadow-md overflow-hidden">
     <img
-      src="/logo.jpg"
+      src={`${process.env.PUBLIC_URL}/logo.jpg`}
       alt="OG Entertainment Logo"
       className="w-full h-full object-cover"
     />
