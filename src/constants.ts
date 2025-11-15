@@ -21,29 +21,29 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 // Available media from all folders
 const gamesImages = [
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0219.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0220.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0221.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0380.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0381.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0384.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0385.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0431.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0433.JPG`,
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_0444.JPG`,
+  `/games-entertainment/IMG_0219.JPG`,
+  `/games-entertainment/IMG_0220.JPG`,
+  `/games-entertainment/IMG_0221.JPG`,
+  `/games-entertainment/IMG_0380.JPG`,
+  `/games-entertainment/IMG_0381.JPG`,
+  `/games-entertainment/IMG_0384.JPG`,
+  `/games-entertainment/IMG_0385.JPG`,
+  `/games-entertainment/IMG_0431.JPG`,
+  `/games-entertainment/IMG_0433.JPG`,
+  `/games-entertainment/IMG_0444.JPG`,
 ];
 const gamesVideos = [
-  `${process.env.PUBLIC_URL}/games-entertainment/IMG_8075.mp4`
+  `/games-entertainment/IMG_8075.mp4`
 ];
 const surprisesImages = [
-  `${process.env.PUBLIC_URL}/surprises/IMG_0245.JPG`,
-  `${process.env.PUBLIC_URL}/surprises/IMG_0246.JPG`,
-  `${process.env.PUBLIC_URL}/surprises/IMG_0249.JPG`,
-  `${process.env.PUBLIC_URL}/surprises/IMG_0250.JPG`,
+  `/surprises/IMG_0245.JPG`,
+  `/surprises/IMG_0246.JPG`,
+  `/surprises/IMG_0249.JPG`,
+  `/surprises/IMG_0250.JPG`,
 ];
 const teamBuildingImages = Array.from(
   { length: 24 },
-  (_, i) => `${process.env.PUBLIC_URL}/team-building/IMG_${String(217 + i).padStart(4, "0")}.JPG`
+  (_, i) => `/team-building/IMG_${String(217 + i).padStart(4, "0")}.JPG`
 );
 
 // Combine all media
@@ -81,70 +81,70 @@ export const SECTIONS_DATA: SectionData[] = [
       {
         id: 101,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0219.JPG`,
+        src: `/games-entertainment/IMG_0219.JPG`,
         alt: "Games and entertainment",
         span: "md:col-span-1",
       },
       {
         id: 103,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0220.JPG`,
+        src: `/games-entertainment/IMG_0220.JPG`,
         alt: "Fun activities",
         span: "md:col-span-1",
       },
       {
         id: 104,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0221.JPG`,
+        src: `/games-entertainment/IMG_0221.JPG`,
         alt: "Entertainment event",
         span: "md:col-span-1",
       },
       {
         id: 105,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0380.JPG`,
+        src: `/games-entertainment/IMG_0380.JPG`,
         alt: "Games and fun",
         span: "md:col-span-1",
       },
       {
         id: 107,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0381.JPG`,
+        src: `/games-entertainment/IMG_0381.JPG`,
         alt: "Event photo",
         span: "md:col-span-1",
       },
       {
         id: 108,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0384.JPG`,
+        src: `/games-entertainment/IMG_0384.JPG`,
         alt: "Entertainment moment",
         span: "md:col-span-1",
       },
       {
         id: 109,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0385.JPG`,
+        src: `/games-entertainment/IMG_0385.JPG`,
         alt: "Games event",
         span: "md:col-span-1",
       },
       {
         id: 111,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0431.JPG`,
+        src: `/games-entertainment/IMG_0431.JPG`,
         alt: "Entertainment photo",
         span: "md:col-span-1",
       },
       {
         id: 112,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0433.JPG`,
+        src: `/games-entertainment/IMG_0433.JPG`,
         alt: "Games moment",
         span: "md:col-span-1",
       },
       {
         id: 113,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/games-entertainment/IMG_0444.JPG`,
+        src: `/games-entertainment/IMG_0444.JPG`,
         alt: "Entertainment event",
         span: "md:col-span-1",
       },
@@ -159,28 +159,28 @@ export const SECTIONS_DATA: SectionData[] = [
       {
         id: 201,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/surprises/IMG_0245.JPG`,
+        src: `/surprises/IMG_0245.JPG`,
         alt: "Surprise moment",
         span: "md:col-span-1",
       },
       {
         id: 202,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/surprises/IMG_0246.JPG`,
+        src: `/surprises/IMG_0246.JPG`,
         alt: "Surprise celebration",
         span: "md:col-span-1",
       },
       {
         id: 203,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/surprises/IMG_0249.JPG`,
+        src: `/surprises/IMG_0249.JPG`,
         alt: "Surprise event",
         span: "md:col-span-1",
       },
       {
         id: 204,
         type: MediaType.Image,
-        src: `${process.env.PUBLIC_URL}/surprises/IMG_0250.JPG`,
+        src: `/surprises/IMG_0250.JPG`,
         alt: "Surprise moment",
         span: "md:col-span-1",
       },
