@@ -120,7 +120,7 @@ const App: React.FC = () => {
           </motion.section>
 
           <motion.section
-            className="grid grid-cols-3 gap-4  lg:ml-[50%] lg:w-1/2 lg:p-8 lg:pb-16"
+            className="grid grid-cols-3 gap-4 p-4 lg:ml-[50%] lg:w-1/2 lg:p-8 lg:pb-16"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
