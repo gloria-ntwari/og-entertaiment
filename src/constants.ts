@@ -33,17 +33,13 @@ const gamesImages = [
   "/games-entertainment/IMG_0444.JPG",
 ];
 const gamesVideos = [
-  "/games-entertainment/IMG_0216.MOV",
-  "/games-entertainment/IMG_3417.MOV",
-  "/games-entertainment/IMG_8075.MOV",
-  "/games-entertainment/IMG_8129.MOV",
-  "/games-entertainment/IMG_8861.MOV",
+  "/games-entertainment/IMG_8075.mp4"
 ];
 const surprisesImages = [
-  "/suprises/IMG_0245.JPG",
-  "/suprises/IMG_0246.JPG",
-  "/suprises/IMG_0249.JPG",
-  "/suprises/IMG_0250.JPG",
+  "/surprises/IMG_0245.JPG",
+  "/surprises/IMG_0246.JPG",
+  "/surprises/IMG_0249.JPG",
+  "/surprises/IMG_0250.JPG",
 ];
 const teamBuildingImages = Array.from(
   { length: 24 },
@@ -90,13 +86,6 @@ export const SECTIONS_DATA: SectionData[] = [
         span: "md:col-span-1",
       },
       {
-        id: 102,
-        type: MediaType.Video,
-        src: "/games-entertainment/IMG_0216.MOV",
-        alt: "Entertainment video",
-        span: "md:col-span-2",
-      },
-      {
         id: 103,
         type: MediaType.Image,
         src: "/games-entertainment/IMG_0220.JPG",
@@ -118,13 +107,6 @@ export const SECTIONS_DATA: SectionData[] = [
         span: "md:col-span-1",
       },
       {
-        id: 106,
-        type: MediaType.Video,
-        src: "/games-entertainment/IMG_3417.MOV",
-        alt: "Entertainment video",
-        span: "md:col-span-2",
-      },
-      {
         id: 107,
         type: MediaType.Image,
         src: "/games-entertainment/IMG_0381.JPG",
@@ -144,13 +126,6 @@ export const SECTIONS_DATA: SectionData[] = [
         src: "/games-entertainment/IMG_0385.JPG",
         alt: "Games event",
         span: "md:col-span-1",
-      },
-      {
-        id: 110,
-        type: MediaType.Video,
-        src: "/games-entertainment/IMG_8075.MOV",
-        alt: "Entertainment video",
-        span: "md:col-span-2",
       },
       {
         id: 111,
@@ -184,28 +159,28 @@ export const SECTIONS_DATA: SectionData[] = [
       {
         id: 201,
         type: MediaType.Image,
-        src: "/suprises/IMG_0245.JPG",
+        src: "/surprises/IMG_0245.JPG",
         alt: "Surprise moment",
         span: "md:col-span-1",
       },
       {
         id: 202,
         type: MediaType.Image,
-        src: "/suprises/IMG_0246.JPG",
+        src: "/surprises/IMG_0246.JPG",
         alt: "Surprise celebration",
         span: "md:col-span-1",
       },
       {
         id: 203,
         type: MediaType.Image,
-        src: "/suprises/IMG_0249.JPG",
+        src: "/surprises/IMG_0249.JPG",
         alt: "Surprise event",
         span: "md:col-span-1",
       },
       {
         id: 204,
         type: MediaType.Image,
-        src: "/suprises/IMG_0250.JPG",
+        src: "/surprises/IMG_0250.JPG",
         alt: "Surprise moment",
         span: "md:col-span-1",
       },
