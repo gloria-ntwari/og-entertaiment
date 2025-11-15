@@ -26,15 +26,6 @@ const modalVariants = {
   exit: { y: "100%", opacity: 0, transition: { duration: 0.3 } },
 };
 
-const PlayIcon = () => (
-  <svg
-    className="absolute w-16 h-16 text-white/80 drop-shadow-lg"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-  >
-    <path d="M8 5v14l11-7z" />
-  </svg>
-);
 
 const MediaCard: React.FC<{ item: MediaItem }> = ({ item }) => {
   const isVideo = item.type === MediaType.Video;
